@@ -29,7 +29,3 @@ TypeError: Cannot read property 'apply' of undefined
 ```
 
 then run `npm install -g gulp-cli`.
-
-## Credits
-
-all credits going to original repository [https://github.com/rtivital/react-gulp-boilerplate](https://github.com/rtivital/react-gulp-boilerplate), because i just forked and edit a little bit.
