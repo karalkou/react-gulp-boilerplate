@@ -8,10 +8,19 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.js$/,
+      test: /\.jsx$/,
       loaders: ['babel-loader'],
       include: path.join(__dirname, '../../js'),
       exclude: /node_modules/
     }]
-  }
+  },
+  plugins: [
+    // uncomment those lines for production
+    //new webpack.optimize.UglifyJsPlugin({
+    //  compress: { warnings: false },
+    //  comments: false,
+    //  minimize: false
+    //})
+    //new webpack.optimize.AggressiveMergingPlugin()
+  ]
 };

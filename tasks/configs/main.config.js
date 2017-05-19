@@ -3,8 +3,8 @@ module.exports = {
   paths: {
     sass: './sass/**/*.scss',
     scsslint: './scsslint.yml',
-    entry: './js/index.js',
-    js: './js/**/*.js',
+    entry: './js/index.jsx',
+    js: './js/**/*.jsx',
     html: './*.html',
     dist: './public'
   },

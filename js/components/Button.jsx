@@ -16,7 +16,7 @@ export default class Button extends Component {
   render() {
     return (
       <button onClick={this.increment.bind(this)} className="button">
-        Кнопочка была нажата: {this.state.count} раз
+        Button clicked: {this.state.count} times
       </button>
     );
   }
