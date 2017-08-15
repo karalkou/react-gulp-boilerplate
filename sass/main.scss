@@ -1,4 +1,6 @@
 @import 'normalize';
+@import 'style';
+@import 'react-select'; // imported by mean of sass-module-importer
 
 .button {
   padding: 1rem 2rem;

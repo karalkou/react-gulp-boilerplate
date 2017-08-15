@@ -26,10 +26,13 @@
     "gulp-scss-lint": "^0.3.9",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-svg-sprite": "^1.2.19",
+    "sass-module-importer": "^1.4.0",
     "webpack-stream": "^3.1.0"
   },
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dom": "^15.3.2",
+    "react-select": "^1.0.0-rc.5"
   }
 }

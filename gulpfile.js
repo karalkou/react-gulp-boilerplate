@@ -3,7 +3,7 @@
 const gulp = require('gulp');
 const plugins = require('gulp-load-plugins')();
 const config = require('./tasks/configs/main.config');
-const register = require(`./tasks/utils/register`);
+const register = require(`./tasks/utils/register`); //lazyRequireTask in Kantor's gulp screencast
 
 register(gulp, plugins, config)({
   'lint:scss': 'lint-scss',
