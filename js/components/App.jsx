@@ -3,6 +3,7 @@ import ArticleList from './ArticleList.jsx'
 import Chart from './Chart.jsx'
 import Select from 'react-select'
 import Counter from './Counter.jsx'
+import Icon from './Icon.jsx'
 
 class App extends Component {
     state = {
@@ -18,6 +19,7 @@ class App extends Component {
         }))
         return (
             <div>
+                <Icon iconId="cat"/>
                 <Counter/>
                 User: <input type="text" value={this.state.user} onChange={this.handleUserChange}/>
                 <Select options = {options} onChange={this.handleSelectChange} value={this.state.selection} multi/>
