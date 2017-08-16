@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-import App from './components/App.jsx'
+import Root from './components/Root.jsx'
 import {articles} from './fixtures.jsx'
 
-render(<App articles={articles} />, document.getElementById('root'))
+render(<Root articles={articles} />, document.getElementById('root'));

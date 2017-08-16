@@ -33,6 +33,9 @@
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.4.2",
     "react-dom": "^15.3.2",
-    "react-select": "^1.0.0-rc.5"
+    "react-redux": "^5.0.6",
+    "react-select": "^1.0.0-rc.5",
+    "redux": "^3.7.2",
+    "redux-devtools": "^3.4.0"
   }
 }

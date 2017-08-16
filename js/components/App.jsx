@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react'
 import ArticleList from './ArticleList.jsx'
 import Chart from './Chart.jsx'
 import Select from 'react-select'
-//import 'react-select/dist/react-select.css'
+import Counter from './Counter.jsx'
 
 class App extends Component {
     state = {
@@ -18,6 +18,7 @@ class App extends Component {
         }))
         return (
             <div>
+                <Counter/>
                 User: <input type="text" value={this.state.user} onChange={this.handleUserChange}/>
                 <Select options = {options} onChange={this.handleSelectChange} value={this.state.selection} multi/>
                 <ArticleList articles={articles}/>
