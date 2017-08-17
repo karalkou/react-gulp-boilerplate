@@ -2,13 +2,4 @@
 @import 'style';
 @import 'react-select'; // imported by mean of sass-module-importer
 
-.button {
-  padding: 1rem 2rem;
-  border: 1px solid #2980b9;
-  border-radius: .4rem;
-  font-size: 1.3rem;
-
-  background-color: #3498db;
-  color: #ecf0f1;
-  cursor: pointer;
-}
+svg:not([class]) { display: none; }

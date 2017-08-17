@@ -2,12 +2,12 @@ import React, { PropTypes } from 'react'
 
 function Icon(props) {
     const {iconId} = props;
-    const url = 'images/svg/sprite.svg';
+    //const url = 'images/svg/sprite.svg';
 
     return (
-        <svg className={`icon icon-${props.iconId}`}>
-            {/*<use xlinkHref={`${url}#icon-${props.icon}`} />*/}
-            <use xlinkHref={`${url}#${props.iconId}`} />
+        <svg className={`icon icon-${iconId}`}>
+            {/*<use xlinkHref={`${url}#${iconId}`} />*/}
+            <use xlinkHref={`#${iconId}`} />
         </svg>
     )
 }

@@ -15,10 +15,11 @@ register(gulp, plugins, config)({
     'build:js': 'build-js',
     'build:svg': 'build-svg',
     'lint:scss': 'lint-scss',
+    'inject:svg': 'inject-svg',
     'copy': 'copy',
     'watch': 'watch',
     'serve': 'serve'
 });
 
-gulp.task('build', gulp.parallel('build:js', 'build:scss', 'build:svg', 'copy'));
+gulp.task('build', gulp.parallel('build:js', 'build:svg', /*'inject:svg',*/ 'build:scss', 'copy'));
 gulp.task('default', gulp.series('build', gulp.parallel('watch', 'serve')));
